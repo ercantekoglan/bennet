@@ -50,10 +50,9 @@ public class LoginController {
 
 
 	@GetMapping("/player")
-	public String getPlayer(ModelMap model, @PathVariable Long userId) {
+	public String getPlayer(ModelMap model {
 		// you can put user info here
-		User userById = userService.findById(userId);
-		model.put("userById", userById);
+		
 
 		return "player";
 	}
