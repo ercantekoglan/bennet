@@ -1,0 +1,86 @@
+html{
+	font-family:"Libre Baskerville", serif;
+	background: url("/images/giant.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:  cover;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+	font-family: "Libre Baskerville", serif;
+	color: white;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	top: 50%;
+	margin-bottom: auto;
+	
+}
+.form-container{
+	display:flex;
+	justify-content: center;
+	top: 50%;
+	align-items: center;
+}
+.label {
+	margin-left: 20px;
+	font-size: 18px;
+	color: white;
+
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	vertical-align: 50%;
+}
+
+input[type='text'], input[type='password']{
+	font-size: 20px;
+	border-radius: 5px;
+	color:white
+}
+.buttons{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 8px;
+	margin-top: 8px;
+	color:black;
+}
+button{
+	text-decoration:none;
+	color: black;
+	border: 1px solid black;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 20px;
+	width: 100%;
+}
+
+input{
+	background: transparent;
+	outline: black;
+	padding: 0.3em;
+	font-weight: bold;
+}
+.label{
+	font-size: 15px;
+	color: white;
+}
